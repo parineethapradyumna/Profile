@@ -1,0 +1,66 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+.row {
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 12px 12px 22px;
+}
+
+.login img{
+border-top-left-radius: 30px;
+border-bottom-left-radius: 30px;
+height: 550px;
+width: 700px;
+}
+
+.login h1{
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: 'Bree Serif', serif;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'MonteCarlo', cursive;
+    font-family: 'Roboto Slab', serif;
+}
+
+.inp {
+    height: 50px;
+    width: 70%;
+    border: none;
+    outline: none;
+    border-radius: 60px;
+    box-shadow: 1px 5px 12px 1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 5px 12px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 5px 12px 1px rgba(0,0,0,0.75);
+}
+
+.btn1 {
+    height: 50px;
+    width: 50%;
+    border: none;
+    outline: none;
+    border-radius: 60px;
+    font-weight: 600;
+    background-color:  rgba(35, 104, 170, 0.794);
+    color: white;
+}
+
+.btn1:hover {
+    background-color:rgb(195, 41, 92);
+transition: 0.5s;
+}
+
+.fa-facebook {
+    color: rgb(39, 39, 182);
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+.fa-google-plus {
+    color: rgb(209, 7, 24);
+    font-size: 2.5rem;
+    cursor: pointer;
+}
